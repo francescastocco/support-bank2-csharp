@@ -15,3 +15,5 @@ C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\ref\SupportBank2.dll
 C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.pdb
 C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.genruntimeconfig.cache
 C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Data\Transactions2014.csv
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\MoreLinq.dll
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.csproj.CopyComplete

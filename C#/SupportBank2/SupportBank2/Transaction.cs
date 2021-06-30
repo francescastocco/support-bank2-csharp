@@ -7,16 +7,14 @@
         public string Narrative { get; set; }
         public string From { get; set; }
         public string To { get; set; }
-        public int Id { get; set; }
-        public Transaction(string date, float amount, string narrative, string from, string to, int id)
 
+        public Transaction(string[] cells)
         {
-            Date = date;
-            Amount = amount;
-            Narrative = narrative;
-            From = from;
-            To = to;
-            Id = id;
+            Date = cells[0];
+            Amount = float.Parse(cells[4]);
+            Narrative = cells[3];
+            From = cells[1];
+            To = cells[2];
         }
     }
 }

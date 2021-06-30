@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r1pJ0mRyj8RijFkfIHFZ0umtzfgDZTg83KOlUIdZpi8pHmomyBPnond5tZE8102C7URa5u+YGGl1a4eSV3o2Og==",
+  "dgSpecHash": "bQCzQm4ZCddxW/5NaJc/D57JSdbkm+tap/9I1xs3Upl9m5eQV639OpegV2ktnfG4anLp95byLNnjZI4yZU2Oyw==",
   "success": true,
   "projectFilePath": "C:\\Training\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\frasto\\.nuget\\packages\\morelinq\\3.3.2\\morelinq.3.3.2.nupkg.sha512"
+  ],
   "logs": []
 }
