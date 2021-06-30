@@ -1,0 +1,17 @@
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.csproj.AssemblyReference.cache
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.AssemblyInfoInputs.cache
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.AssemblyInfo.cs
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.csproj.CoreCompileInputs.cache
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.exe
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.deps.json
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.runtimeconfig.json
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.runtimeconfig.dev.json
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.dll
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\ref\SupportBank2.dll
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.pdb
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.dll
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\ref\SupportBank2.dll
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.pdb
+C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.genruntimeconfig.cache
+C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Data\Transactions2014.csv
