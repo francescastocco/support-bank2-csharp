@@ -10,6 +10,7 @@ namespace SupportBank2
         public string Name { get; }
         public List<Transaction> TransactionHistoryOwe { get; set; } = new List<Transaction>();
         public List<Transaction> TransactionHistoryOwed { get; set; } = new List<Transaction>();
+
         public Account(string name)
         {
             Name = name;
@@ -17,8 +18,7 @@ namespace SupportBank2
 
         public float TotalOwe()
         {
-            var sum = TransactionHistoryOwe.Select(transaction => transaction.Amount).Sum();
-            return sum;
+            return TransactionHistoryOwe.Select(transaction => transaction.Amount).Sum();
         }
 
         public float TotalOwed()

@@ -11,26 +11,52 @@ namespace SupportBank2
         {
             var file = File.ReadAllLines("./Data/Transactions2014.csv");
 
-            var transactionList = new List<Transaction>();
+            var transactions = file.Skip(1).Select(line => new Transaction(line.Split(","))).ToList();
+            var accounts = transactions.Select(transaction => transaction.From).Distinct().Select(name => new Account(name)).ToList();
 
-            for (var i = 1; i < file.Length; i++)
+            accounts.ForEach(account =>
             {
-                var cells = file[i].Split(",");
-                var transaction = new Transaction(cells);
-                transactionList.Add(transaction);
+                account.TransactionHistoryOwe = transactions.FindAll(transaction => transaction.From == account.Name);
+                account.TransactionHistoryOwed = transactions.FindAll(transaction => transaction.To == account.Name);
+            });
+
+            Console.Write("Would you like a list of all the accounts? y/n?");
+            var listAllAccounts = Console.ReadLine();
+
+            if (listAllAccounts.ToLower() == "y")
+            {
+                Console.WriteLine("Date \t\t Amount \t From \t To \t\t Narrative");
+                transactions.ForEach(transaction =>
+                {
+                    Console.WriteLine(transaction.Date + "\t" + transaction.Amount + "\t\t" + transaction.From + "\t" + transaction.To + "\t\t" + transaction.Narrative);
+                });
             }
 
-            var accountNames = transactionList.Select(transaction => transaction.From).Distinct();
-            var accountsList = accountNames.Select(name => new Account(name)).ToList();
+            Console.Write("Would you like a specific account y/n?");
+            var accountRequest = Console.ReadLine();
 
-            accountsList.ForEach(account =>
+            if (accountRequest.ToLower() == "y")
             {
-                account.TransactionHistoryOwe = transactionList.FindAll(transaction => transaction.From == account.Name);
-                account.TransactionHistoryOwed = transactionList.FindAll(transaction => transaction.To == account.Name);
-
-                Console.WriteLine("Name: " + account.Name + ". Total Owing: " + account.TotalOwe() + ". Total Owed: " + account.TotalOwed());
-              
-            });
+                Console.Write("Who's account would you like to see?");
+                var accountName = Console.ReadLine();
+                var account = accounts.Find(account => account.Name.ToLower() == accountName.ToLower());
+                if (account != null)
+                {
+                    Console.WriteLine("Date \t\t Amount \t From \t To \t\t Narrative");
+                    account.TransactionHistoryOwe.ForEach(transaction =>
+                    {
+                        Console.WriteLine(transaction.Date + "\t" + transaction.Amount + "\t\t" + transaction.From + "\t" + transaction.To + "\t\t" + transaction.Narrative);
+                    });
+                    Console.WriteLine("Name: " + account.Name + ". Total Owing: " + account.TotalOwe() + ". Total Owed: " + account.TotalOwed());
+                }
+                else
+                {
+                    Console.WriteLine($"{accountName} does not exist");
+                }
         }
+        }
+
     }
 }
+
+

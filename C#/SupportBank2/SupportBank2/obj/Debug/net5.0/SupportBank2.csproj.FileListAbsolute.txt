@@ -17,3 +17,22 @@ C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.genruntim
 C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Data\Transactions2014.csv
 C:\Training\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\MoreLinq.dll
 C:\Training\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.csproj.CopyComplete
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.dll
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\ref\SupportBank2.dll
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.pdb
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Data\Transactions2014.csv
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.exe
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.deps.json
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.runtimeconfig.json
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.runtimeconfig.dev.json
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.dll
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\ref\SupportBank2.dll
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\SupportBank2.pdb
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\MoreLinq.dll
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.csprojAssemblyReference.cache
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.AssemblyInfoInputs.cache
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.AssemblyInfo.cs
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.csproj.CoreCompileInputs.cache
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.csproj.CopyComplete
+C:\Users\stebow\Techswitch Projects\support-bank2-csharp\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.genruntimeconfig.cache
