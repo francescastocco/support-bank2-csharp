@@ -1,7 +1,11 @@
-﻿namespace SupportBank2
+﻿using NLog;
+
+namespace SupportBank2
 {
     public class Transaction
     {
+        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
+
         public string Date { get; set; }
         public float Amount { get; set; }
         public string Narrative { get; set; }

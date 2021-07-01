@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "SupportBank2/1.0.0": {
         "dependencies": {
+          "NLog": "4.7.10",
           "morelinq": "3.3.2"
         },
         "runtime": {
@@ -19,6 +20,14 @@
           "lib/netstandard2.0/MoreLinq.dll": {
             "assemblyVersion": "3.3.2.0",
             "fileVersion": "3.3.2.0"
+          }
+        }
+      },
+      "NLog/4.7.10": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.10.13013"
           }
         }
       }
@@ -36,6 +45,13 @@
       "sha512": "sha512-MQc8GppZJLmjvcpEdf3EkC6ovsp7gRWt2e5mC7dcIOrgwSc+yjFd3JQ0iRqr3XrUT6rb/phv0IkEmBtbfVA7AQ==",
       "path": "morelinq/3.3.2",
       "hashPath": "morelinq.3.3.2.nupkg.sha512"
+    },
+    "NLog/4.7.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rcegW7kYOCjl7wX0SzsqpPBqnJ51JKi1WkYb6QBVX0Wc5IgH19Pv4t/co+T0s06OS0Ne44xgkY/mHg0PdrmJow==",
+      "path": "nlog/4.7.10",
+      "hashPath": "nlog.4.7.10.nupkg.sha512"
     }
   }
 }
