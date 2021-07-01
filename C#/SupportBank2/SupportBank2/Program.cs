@@ -31,7 +31,7 @@ namespace SupportBank2
         public static List<Transaction> GetTransactions() {
             Console.Write("Which year do you want to see?");
             var year = Console.ReadLine();
-            string[] file = new string[] { };
+            var file = Array.Empty<string>();
             if (year == "2014")
             {
                file = File.ReadAllLines("./Data/Transactions2014.csv");

@@ -1,4 +1,5 @@
-﻿using NLog;
+﻿using System;
+using NLog;
 
 namespace SupportBank2
 {
@@ -15,10 +16,18 @@ namespace SupportBank2
         public Transaction(string[] cells)
         {
             Date = cells[0];
-            Amount = float.Parse(cells[4]);
             Narrative = cells[3];
             From = cells[1];
             To = cells[2];
+
+            if (float.TryParse(cells[4], out float result))
+            {
+                Amount = result;
+            }
+            else
+            {
+                Logger.Error("Transaction amount was not a float");
+            }
         }
     }
 }
