@@ -2,3 +2,496 @@
 2021-07-02 11:09:58.5107 Error - SupportBank2.Program: Amount can't be parsed. for transaction values 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
 2021-07-02 11:09:58.5107 Error - SupportBank2.Program: Date can't be parsed. for transaction values Last Thursday, Sarah T, Dan W, Beers, 5.42
 2021-07-02 11:09:58.5160 Info - SupportBank2.Program: Hello world
+2021-07-02 12:10:35.1546 Warn - SupportBank2.Program: Incorrect Year Entered! User input: '2013'
+2021-07-02 12:11:36.9075 Warn - SupportBank2.Program: Incorrect Year Entered! User input: '2013'
+2021-07-02 12:11:39.9666 Warn - SupportBank2.Program: Incorrect Year Entered! User input: '2014'
+2021-07-02 12:12:35.7046 Info - SupportBank2.Program: Parsing 2013 json
+2021-07-02 12:12:36.1584 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2323 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2494 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2494 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2494 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2494 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2494 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2494 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2494 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2613 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2613 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2613 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2613 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2613 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2613 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2765 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2765 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2765 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2765 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2765 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2765 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2765 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2916 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2916 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2916 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2916 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2916 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.2916 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3078 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3078 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3078 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3078 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3078 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3224 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3404 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3404 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3404 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3404 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3546 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3546 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3546 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3546 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3546 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3546 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3546 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3703 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3703 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3703 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3703 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3703 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3703 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3871 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3871 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3871 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3871 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3871 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.3871 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4026 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4026 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4026 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4165 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4165 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4165 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4165 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4325 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4325 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4325 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4325 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4325 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4547 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4547 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4652 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4652 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4652 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4652 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4652 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4836 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4836 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4836 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4836 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4955 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4955 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4955 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4955 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4955 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.4955 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5148 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5148 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5148 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5148 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5289 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5289 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5289 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5289 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5289 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5289 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5495 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5495 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5495 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5592 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5592 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5592 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5592 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5592 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5592 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5748 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5748 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5748 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5748 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5925 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.5925 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6157 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6244 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6244 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6487 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6565 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6565 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6565 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6678 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6678 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6678 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6678 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.7000 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.7000 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.7000 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.7000 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.7177 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.7177 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:12:36.7177 Debug - SupportBank2.Account: Creating account, name: Jon A
+2021-07-02 12:12:36.7283 Debug - SupportBank2.Account: Creating account, name: Chris W
+2021-07-02 12:12:36.7283 Debug - SupportBank2.Account: Creating account, name: Stephen S
+2021-07-02 12:12:36.7283 Debug - SupportBank2.Account: Creating account, name: Todd
+2021-07-02 12:12:36.7283 Debug - SupportBank2.Account: Creating account, name: Laura B
+2021-07-02 12:12:36.7283 Debug - SupportBank2.Account: Creating account, name: Dan W
+2021-07-02 12:12:36.7283 Debug - SupportBank2.Account: Creating account, name: Ben B
+2021-07-02 12:12:36.7500 Debug - SupportBank2.Account: Creating account, name: Sarah T
+2021-07-02 12:12:36.7500 Debug - SupportBank2.Account: Creating account, name: Sam N
+2021-07-02 12:12:36.7500 Debug - SupportBank2.Account: Creating account, name: Rob S
+2021-07-02 12:12:36.7500 Debug - SupportBank2.Account: Creating account, name: Gergana I
+2021-07-02 12:12:36.7616 Debug - SupportBank2.Account: Creating account, name: Tim L
+2021-07-02 12:12:36.7616 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 12:12:42.0993 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 12:12:46.6965 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 12:20:52.3682 Info - SupportBank2.Program: Parsing ./Data/Transactions2013.json
+2021-07-02 12:20:52.6908 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 12:24:12.4557 Info - SupportBank2.Program: Parsing ./Data/Transactions2013.json
+2021-07-02 13:46:44.7749 Info - SupportBank2.Program: Parsing ./Data/Transactions2013.json
+2021-07-02 13:46:45.3783 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4077 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4077 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4077 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4151 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4151 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4151 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4151 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4151 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4303 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4303 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4303 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4303 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4461 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4461 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4461 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4461 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4461 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4621 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4621 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4621 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4621 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4621 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4771 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4771 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4771 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4771 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4771 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.4929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5099 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5099 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5099 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5099 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5099 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5099 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5239 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5239 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5239 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5239 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5239 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5239 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5239 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5402 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5402 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5402 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5402 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5402 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5402 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5402 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5557 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5557 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5557 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5557 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5557 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5557 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5557 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5740 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5740 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5740 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5740 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5740 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5740 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5879 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5879 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5879 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5879 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5879 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5879 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.5879 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6197 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6197 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6197 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6197 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6395 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6395 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6395 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6395 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6506 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6506 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6506 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6506 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6506 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6506 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6648 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6648 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6648 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6648 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6648 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6821 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6964 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6964 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6964 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6964 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6964 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.6964 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7120 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7120 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7120 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7120 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7120 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7120 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7120 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7275 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7275 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7275 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7275 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7275 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7275 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7275 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7428 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7428 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7428 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7428 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7428 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7428 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7428 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7594 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7594 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7594 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7594 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7594 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7594 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7738 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7738 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7738 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7738 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7738 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7738 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7738 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:46:45.7925 Debug - SupportBank2.Account: Creating account, name: Chris W
+2021-07-02 13:46:45.7925 Debug - SupportBank2.Account: Creating account, name: Stephen S
+2021-07-02 13:46:45.7925 Debug - SupportBank2.Account: Creating account, name: Todd
+2021-07-02 13:46:45.7925 Debug - SupportBank2.Account: Creating account, name: Laura B
+2021-07-02 13:46:45.7925 Debug - SupportBank2.Account: Creating account, name: Dan W
+2021-07-02 13:46:45.7925 Debug - SupportBank2.Account: Creating account, name: Ben B
+2021-07-02 13:46:45.7925 Debug - SupportBank2.Account: Creating account, name: Sarah T
+2021-07-02 13:46:45.8059 Debug - SupportBank2.Account: Creating account, name: Sam N
+2021-07-02 13:46:45.8059 Debug - SupportBank2.Account: Creating account, name: Rob S
+2021-07-02 13:46:45.8059 Debug - SupportBank2.Account: Creating account, name: Jon A
+2021-07-02 13:46:45.8059 Debug - SupportBank2.Account: Creating account, name: Gergana I
+2021-07-02 13:46:45.8059 Debug - SupportBank2.Account: Creating account, name: Tim L
+2021-07-02 13:46:45.8059 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 13:46:49.9212 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 13:46:52.7091 Info - SupportBank2.Program: User input: 'n'
+2021-07-02 13:56:41.5283 Info - SupportBank2.Program: Parsing ./Data/Transactions2013.json
+2021-07-02 13:56:42.2776 Error - SupportBank2.Program: Failed to create transaction from JObject Date - 01/01/2013 00:00:00 FromAccount - Jon A ToAccount - Gergana I Narrative - Sandbox Help Amount - hello 
+2021-07-02 13:56:42.2776 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3273 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3273 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3273 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3273 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3273 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3419 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3419 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3419 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3419 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3419 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3550 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3550 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3550 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3550 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3550 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3746 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3746 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3746 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3746 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3859 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3859 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3859 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3859 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.3859 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4058 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4169 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4169 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4169 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4169 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4169 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4338 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4338 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4338 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4338 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4490 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4490 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4490 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4490 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4490 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4674 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4674 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4674 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4817 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4817 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4817 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4971 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4971 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.4971 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5112 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5112 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5112 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5112 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5112 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5269 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5269 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5269 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5269 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5269 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5452 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5452 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5452 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5452 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5452 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5586 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5586 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5586 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5586 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5586 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5791 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5791 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5791 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5917 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5917 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5917 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.5917 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6158 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6262 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6262 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6262 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6262 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6375 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6375 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6375 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6375 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6532 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6532 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6532 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6692 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6692 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6692 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6843 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6843 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6843 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6843 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6999 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6999 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6999 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.6999 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7155 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7155 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7155 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7155 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7319 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7319 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7319 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7319 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7500 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7500 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7500 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7632 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7632 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7632 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7632 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7810 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7810 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7810 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7976 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7976 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.7976 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8147 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8266 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8266 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8266 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8266 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8455 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8455 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8554 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8554 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8554 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8554 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8781 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8781 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.8929 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9013 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9013 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9226 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9226 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9226 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9375 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9495 Debug - SupportBank2.Transaction: Creating transaction using json
+2021-07-02 13:56:42.9495 Debug - SupportBank2.Account: Creating account, name: Chris W
+2021-07-02 13:56:42.9495 Debug - SupportBank2.Account: Creating account, name: Stephen S
+2021-07-02 13:56:42.9495 Debug - SupportBank2.Account: Creating account, name: Todd
+2021-07-02 13:56:42.9669 Debug - SupportBank2.Account: Creating account, name: Laura B
+2021-07-02 13:56:42.9669 Debug - SupportBank2.Account: Creating account, name: Dan W
+2021-07-02 13:56:42.9669 Debug - SupportBank2.Account: Creating account, name: Ben B
+2021-07-02 13:56:42.9798 Debug - SupportBank2.Account: Creating account, name: Sarah T
+2021-07-02 13:56:42.9798 Debug - SupportBank2.Account: Creating account, name: Sam N
+2021-07-02 13:56:42.9798 Debug - SupportBank2.Account: Creating account, name: Rob S
+2021-07-02 13:56:42.9798 Debug - SupportBank2.Account: Creating account, name: Jon A
+2021-07-02 13:56:42.9969 Debug - SupportBank2.Account: Creating account, name: Gergana I
+2021-07-02 13:56:42.9969 Debug - SupportBank2.Account: Creating account, name: Tim L
+2021-07-02 13:56:42.9969 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 13:56:44.6312 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 13:56:47.0464 Info - SupportBank2.Program: User input: 'n'
+2021-07-02 13:58:19.3173 Info - SupportBank2.Program: Parsing ./Data/Transactions2013.json
+2021-07-02 13:58:19.9680 Error - SupportBank2.Program: Failed to create transaction from JObject Date - 01/01/2013 00:00:00 FromAccount - Jon A ToAccount - Gergana I Narrative - Sandbox Help Amount - hello 
+2021-07-02 13:58:20.0066 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 13:58:21.3212 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 13:58:22.8597 Info - SupportBank2.Program: User input: 'n'

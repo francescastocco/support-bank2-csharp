@@ -59,3 +59,8 @@ C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\Suppor
 C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\ref\SupportBank2.dll
 C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.pdb
 C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\obj\Debug\net5.0\SupportBank2.genruntimeconfig.cache
+C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Data\Transactions2012.xml
+C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Data\Transactions2013.json
+C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Json.Net.dll
+C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Training\C#\SupportBank3\C#\SupportBank2\SupportBank2\bin\Debug\net5.0\Newtonsoft.Json.Schema.dll

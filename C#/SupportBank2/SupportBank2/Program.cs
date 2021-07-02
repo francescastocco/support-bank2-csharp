@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Xml;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Schema;
+using Newtonsoft.Json.Schema.Generation;
 using NLog;
 using NLog.Config;
 using NLog.Targets;
@@ -26,31 +31,82 @@ namespace SupportBank2
             var config = new LoggingConfiguration();
             var target = new FileTarget { FileName = "../../../Log/SupportBank.log", Layout = @"${longdate} ${level} - ${logger}: ${message}" };
             config.AddTarget("File Logger", target);
-            config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
+            config.LoggingRules.Add(new LoggingRule("*", LogLevel.Info, target));
             LogManager.Configuration = config;
         }
 
-        private static List<Transaction> GetTransactions() {
+        private static List<Transaction> GetTransactions()
+        {
             Console.Write("Which year do you want to see?");
             var year = Console.ReadLine();
-            var file = Array.Empty<string>();
-            if (year != "2014" || year != "2015")
+            var transactions = new List<Transaction>();
+            if (year != "2014" && year != "2015" && year != "2013" && year != "2012")
             {
                 Console.WriteLine("No transactions exist for this year");
                 Logger.Warn($"Incorrect Year Entered! User input: '{year}'");
-                GetTransactions();
+                return GetTransactions();
             }
             if (year == "2014")
             {
-                Logger.Info("Parsing 2014 csv");
-                file = File.ReadAllLines("./Data/Transactions2014.csv");
-            } 
-            if(year == "2015")
+                transactions = ParseCSV("./Data/Transactions2014.csv");
+            }
+            if (year == "2015")
             {
-                Logger.Info("Parsing 2015 csv");
-                file = File.ReadAllLines("./Data/DodgyTransactions2015.csv");
-            } 
+                transactions = ParseCSV("./Data/DodgyTransactions2015.csv");
+            }
+            if (year == "2013")
+            {
+                transactions = ParseJson("./Data/Transactions2013.json");
+            }
+            if (year == "2012")
+            {
+                transactions = ParseXML("./Data/Transactions2012.xml");
+            }
+            return transactions;
+        }
+
+        private static List<Transaction> ParseCSV(string path)
+        {
+            Logger.Info($"Parsing {path}");
+            var file = File.ReadAllLines(path);
             return file.Skip(1).Where(line => IsTransactionValid(line.Split(","))).Select(line => new Transaction(line.Split(","))).ToList();
+        }
+
+        private static List<Transaction> ParseJson(string path)
+        {
+            Logger.Info($"Parsing {path}");
+            var file = File.ReadAllText(path);
+
+            var generator = new JSchemaGenerator();
+            var schema = generator.Generate(typeof(Transaction));
+                       
+            var attemptedTransactions = JsonConvert.DeserializeObject<List<JObject>>(file);
+            var transactions = new List<Transaction>();
+            foreach (var attemptedTransaction in attemptedTransactions)
+            {
+                if (attemptedTransaction.IsValid(schema))
+                {
+                    transactions.Add(attemptedTransaction.ToObject<Transaction>());
+                }
+                else
+                {
+                    var error = "";
+                    foreach (var property in attemptedTransaction.Properties())
+                    {
+                        error += $"{property.Name} - {property.Value} ";
+                    }
+                    Logger.Error($"Failed to create transaction from JObject {error}");
+                }
+            }
+            return transactions;
+        }
+
+        private static List<Transaction> ParseXML(string path)
+        {
+            Logger.Info($"Parsing {path}");
+            var xml = new XmlDocument();
+            xml.Load(path);
+            return;
         }
 
         private static bool IsTransactionValid(string[] cells)
@@ -61,7 +117,7 @@ namespace SupportBank2
             if (!validAmount)
             {
                 error += "Amount can't be parsed. ";
-            } 
+            }
             if (!validDate)
             {
                 error += "Date can't be parsed. ";
@@ -69,7 +125,7 @@ namespace SupportBank2
             if (!string.IsNullOrEmpty(error))
             {
                 Logger.Error($"{error}for transaction values {cells[0]}, {cells[1]}, {cells[2]}, {cells[3]}, {cells[4]}");
-            } 
+            }
             return validAmount && validDate;
         }
 

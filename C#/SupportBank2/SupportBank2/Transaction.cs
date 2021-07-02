@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 using NLog;
 
 namespace SupportBank2
@@ -10,7 +11,9 @@ namespace SupportBank2
         public DateTime Date { get; set; }
         public float Amount { get; set; }
         public string Narrative { get; set; }
+        [JsonProperty("FromAccount")]
         public string From { get; set; }
+        [JsonProperty("ToAccount")]
         public string To { get; set; }
 
         public Transaction(string[] cells)
@@ -21,6 +24,10 @@ namespace SupportBank2
             To = cells[2];
             Amount = float.Parse(cells[4]);
             Logger.Debug($"Creating transaction with values {cells[0]}, {cells[1]}, {cells[2]}, {cells[3]}, {cells[4]}");
+        }
+        public Transaction()
+        {
+            Logger.Debug($"Creating transaction using json");
         }
     }
 }
