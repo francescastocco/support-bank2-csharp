@@ -807,3 +807,8 @@
 2021-07-02 15:00:49.6112 Info - SupportBank2.Program: User input: 'y'
 2021-07-02 15:00:51.1517 Info - SupportBank2.Program: Incorrect account name entered!
 2021-07-02 15:00:52.7036 Info - SupportBank2.Program: User input: 'n'
+2021-07-02 17:41:45.7126 Info - SupportBank2.Program: Parsing ./Data/Transactions2012.xml
+2021-07-02 17:43:09.4844 Info - SupportBank2.Program: Parsing ./Data/Transactions2012.xml
+2021-07-02 17:43:09.5318 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 17:43:11.4850 Info - SupportBank2.Program: User input: 'n'
+2021-07-02 17:43:12.8806 Info - SupportBank2.Program: User input: 'n'

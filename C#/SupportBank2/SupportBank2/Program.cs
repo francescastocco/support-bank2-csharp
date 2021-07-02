@@ -40,27 +40,24 @@ namespace SupportBank2
             Console.Write("Which year do you want to see?");
             var year = Console.ReadLine();
             var transactions = new List<Transaction>();
-            if (year != "2014" && year != "2015" && year != "2013" && year != "2012")
+            switch (year)
             {
-                Console.WriteLine("No transactions exist for this year");
-                Logger.Warn($"Incorrect Year Entered! User input: '{year}'");
-                return GetTransactions();
-            }
-            if (year == "2014")
-            {
-                transactions = ParseCSV("./Data/Transactions2014.csv");
-            }
-            if (year == "2015")
-            {
-                transactions = ParseCSV("./Data/DodgyTransactions2015.csv");
-            }
-            if (year == "2013")
-            {
-                transactions = ParseJson("./Data/Transactions2013.json");
-            }
-            if (year == "2012")
-            {
-                transactions = ParseXML("./Data/Transactions2012.xml");
+                case "2012":
+                    transactions = ParseXML("./Data/Transactions2012.xml");
+                    break;
+                case "2013":
+                    transactions = ParseJson("./Data/Transactions2013.json");
+                    break;
+                case "2014":
+                    transactions = ParseCSV("./Data/Transactions2014.csv");
+                    break;
+                case "2015":
+                    transactions = ParseCSV("./Data/DodgyTransactions2015.csv");
+                    break;
+                default:
+                    Console.WriteLine("No transactions exist for this year");
+                    Logger.Warn($"Incorrect Year Entered! User input: '{year}'");
+                    return GetTransactions();
             }
             return transactions;
         }
@@ -116,15 +113,17 @@ namespace SupportBank2
             foreach (XmlElement node in nodes)
             {
                 var value = new List<string>();
-                value[0] = DateTime
+                value.Add(DateTime
                     .FromOADate(Convert.ToDouble(node.GetAttribute("Date")))
-                    .ToString("dd'/'MM'/'yyyy");
-                value[1] = node.SelectSingleNode("Parties/From")?.InnerText;
-                value[2] = node.SelectSingleNode("Parties/To")?.InnerText;
-                value[3] = node.SelectSingleNode("Description")?.InnerText;
-                value[4] = node.SelectSingleNode("Value")?.InnerText;
+                    .ToString("dd'/'MM'/'yyyy")
+                    );
+                value.Add(node.SelectSingleNode("Parties/From")?.InnerText);
+                value.Add(node.SelectSingleNode("Parties/To")?.InnerText);
+                value.Add(node.SelectSingleNode("Description")?.InnerText);
+                value.Add(node.SelectSingleNode("Value")?.InnerText);
 
-                if (IsTransactionValid(value)){
+                if (IsTransactionValid(value))
+                {
                     transactions.Add(new Transaction(value));
                 }
             }
