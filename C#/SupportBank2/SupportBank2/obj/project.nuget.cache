@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ay6d3KzZuNLYwCOHB1TnmUrPIKbsMeGlKHS2c0nTVLo7I89J8rpbyiZMpehOPFN0azRFxC5rcQjOmnXcQ2X49g==",
+  "dgSpecHash": "yNSUFqtUcx2WPtqWdv20YedOenikSixHWI/cq/bdPAr/7D52G3/rMt7mzazoMhxwEyFtIqZiYA8nLkpVamXfXQ==",
   "success": true,
-  "projectFilePath": "C:\\Training\\C#\\SupportBank3\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj",
+  "projectFilePath": "C:\\Work\\TechSwitch\\Course\\Training-CS\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\frasto\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
-    "C:\\Users\\frasto\\.nuget\\packages\\morelinq\\3.3.2\\morelinq.3.3.2.nupkg.sha512",
-    "C:\\Users\\frasto\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\frasto\\.nuget\\packages\\newtonsoft.json.schema\\3.0.14\\newtonsoft.json.schema.3.0.14.nupkg.sha512",
-    "C:\\Users\\frasto\\.nuget\\packages\\nlog\\4.7.10\\nlog.4.7.10.nupkg.sha512"
+    "C:\\Users\\lukste\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
+    "C:\\Users\\lukste\\.nuget\\packages\\morelinq\\3.3.2\\morelinq.3.3.2.nupkg.sha512",
+    "C:\\Users\\lukste\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\lukste\\.nuget\\packages\\newtonsoft.json.schema\\3.0.14\\newtonsoft.json.schema.3.0.14.nupkg.sha512",
+    "C:\\Users\\lukste\\.nuget\\packages\\nlog\\4.7.10\\nlog.4.7.10.nupkg.sha512"
   ],
   "logs": []
 }

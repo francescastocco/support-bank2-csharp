@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using NLog;
 
@@ -16,7 +17,7 @@ namespace SupportBank2
         [JsonProperty("ToAccount")]
         public string To { get; set; }
 
-        public Transaction(string[] cells)
+        public Transaction(IList<string> cells)
         {
             Date = DateTime.Parse(cells[0]);
             Narrative = cells[3];

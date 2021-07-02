@@ -69,7 +69,11 @@ namespace SupportBank2
         {
             Logger.Info($"Parsing {path}");
             var file = File.ReadAllLines(path);
-            return file.Skip(1).Where(line => IsTransactionValid(line.Split(","))).Select(line => new Transaction(line.Split(","))).ToList();
+            return file
+                .Skip(1)
+                .Where(line => IsTransactionValid(line.Split(",")))
+                .Select(line => new Transaction(line.Split(",")))
+                .ToList();
         }
 
         private static List<Transaction> ParseJson(string path)
@@ -79,7 +83,7 @@ namespace SupportBank2
 
             var generator = new JSchemaGenerator();
             var schema = generator.Generate(typeof(Transaction));
-                       
+
             var attemptedTransactions = JsonConvert.DeserializeObject<List<JObject>>(file);
             var transactions = new List<Transaction>();
             foreach (var attemptedTransaction in attemptedTransactions)
@@ -104,12 +108,31 @@ namespace SupportBank2
         private static List<Transaction> ParseXML(string path)
         {
             Logger.Info($"Parsing {path}");
-            var xml = new XmlDocument();
-            xml.Load(path);
-            return;
+            var file = new XmlDocument();
+            file.Load(path);
+            var nodes = file.SelectNodes("TransactionList/SupportTransaction");
+            var transactions = new List<Transaction>();
+
+            foreach (XmlElement node in nodes)
+            {
+                var value = new List<string>();
+                value[0] = DateTime
+                    .FromOADate(Convert.ToDouble(node.GetAttribute("Date")))
+                    .ToString("dd'/'MM'/'yyyy");
+                value[1] = node.SelectSingleNode("Parties/From")?.InnerText;
+                value[2] = node.SelectSingleNode("Parties/To")?.InnerText;
+                value[3] = node.SelectSingleNode("Description")?.InnerText;
+                value[4] = node.SelectSingleNode("Value")?.InnerText;
+
+                if (IsTransactionValid(value)){
+                    transactions.Add(new Transaction(value));
+                }
+            }
+
+            return transactions;
         }
 
-        private static bool IsTransactionValid(string[] cells)
+        private static bool IsTransactionValid(IList<string> cells)
         {
             var validAmount = float.TryParse(cells[4], out _);
             var validDate = DateTime.TryParse(cells[0], out _);
@@ -181,8 +204,5 @@ namespace SupportBank2
                 }
             }
         }
-
     }
 }
-
-

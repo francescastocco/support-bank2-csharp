@@ -495,3 +495,315 @@
 2021-07-02 13:58:20.0066 Info - SupportBank2.Program: Populating transactions in accounts
 2021-07-02 13:58:21.3212 Info - SupportBank2.Program: User input: 'y'
 2021-07-02 13:58:22.8597 Info - SupportBank2.Program: User input: 'n'
+2021-07-02 14:40:17.5009 Info - SupportBank2.Program: Parsing ./Data/Transactions2012.xml
+2021-07-02 14:40:17.6547 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40909, Gergana I, Jon A, Snooker Night, 9.22
+2021-07-02 14:40:17.6547 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40910, Sam N, Dan W, Coffee, 6.98
+2021-07-02 14:40:17.6547 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40914, Stephen S, Sarah T, Lunch, 10.67
+2021-07-02 14:40:17.6547 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40915, Rob S, Sarah T, Misc Morale, 7.19
+2021-07-02 14:40:17.6547 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40917, Tim L, Chris W, Fantasy Football, 10.73
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40920, Tim L, Rob S, Automated Testing Services, 10.1
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40922, Sarah T, Sam N, Beers, 1.79
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40925, Dan W, Todd, Beers, 11.1
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40926, Chris W, Ben B, Coffee, 10.89
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40928, Chris W, Tim L, Pokemon Training, 3.12
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40932, Rob S, Tim L, Snooker Night, 2.29
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40933, Chris W, Rob S, Spline Reticulation, 7.32
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40936, Stephen S, Gergana I, Stationary Items, 6.1
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40937, Stephen S, Todd, Lunch, 7.72
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40939, Stephen S, Laura B, Misc Morale, 5.2
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40941, Sam N, Rob S, Pokemon Training, 4.67
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40944, Ben B, Chris W, Coffee, 11.72
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40948, Rob S, Jon A, Pokemon Training, 6.45
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40952, Todd, Ben B, Sandcastle Help, 8.46
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40955, Laura B, Todd, Lunch, 10.36
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40959, Chris W, Stephen S, Pokemon Training, 3.88
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40962, Sam N, Dan W, Beers, 9.81
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40963, Gergana I, Rob S, Lunch, 3.67
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40965, Dan W, Tim L, Lunch, 0.63
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40969, Tim L, Ben B, Jenkins Fees, 2.61
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40971, Rob S, Ben B, Coffee, 4.85
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40975, Stephen S, Gergana I, Lunch, 3.14
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40979, Gergana I, Chris W, Arcade Social, 9.01
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40980, Gergana I, Rob S, Lego Assistance, 6.33
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40984, Dan W, Stephen S, Misc Morale, 11.84
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40986, Jon A, Sarah T, Spline Reticulation, 9.1
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40989, Stephen S, Dan W, Coffee, 8.41
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40993, Stephen S, Tim L, Lunch, 2.38
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40997, Gergana I, Laura B, Snooker Night, 1.9
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40998, Sarah T, Gergana I, Sandcastle Help, 1.89
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40999, Laura B, Dan W, Stationary Items, 3.8
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41001, Dan W, Chris W, Fantasy Football, 11.63
+2021-07-02 14:40:17.6580 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41003, Dan W, Todd, Misc Morale, 7.32
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41004, Sam N, Chris W, Audit and Other Financial Services, 6.06
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41007, Tim L, Chris W, Arcade Social, 11.17
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41009, Sarah T, Dan W, Lego Assistance, 5.49
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41011, Gergana I, Jon A, Git-Fu Rendered, 0.8
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41012, Sam N, Todd, Lunch, 5.43
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41013, Laura B, Dan W, Lunch, 10.46
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41015, Laura B, Rob S, Beers, 11.7
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41019, Stephen S, Ben B, Pokemon Training, 11.09
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41022, Todd, Dan W, Audit and Other Financial Services, 8.44
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41026, Laura B, Sam N, Fantasy Football, 0.93
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41028, Laura B, Ben B, Jenkins Fees, 8.17
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41029, Jon A, Tim L, Automated Testing Services, 4.79
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41031, Sarah T, Laura B, Snooker Night, 8.24
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41035, Gergana I, Ben B, Coffee, 9.17
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41038, Todd, Sam N, Pokemon Training, 11.4
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41039, Sam N, Dan W, Sandbox Help, 1.55
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41042, Chris W, Rob S, Lunch, 4.3
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41046, Rob S, Sam N, Automated Testing Services, 8.6
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41050, Todd, Chris W, Fantasy Football, 10.88
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41054, Sarah T, Chris W, Misc Morale, 5.19
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41057, Tim L, Ben B, White Water Rafting, 10.73
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41060, Gergana I, Tim L, Arcade Social, 10.73
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41061, Chris W, Jon A, Spline Reticulation, 10.84
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41062, Laura B, Jon A, Coffee, 3.51
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41064, Sarah T, Dan W, Automated Testing Services, 1.78
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41067, Dan W, Stephen S, Lunch, 3.11
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41071, Sarah T, Chris W, Lego Assistance, 3.75
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41074, Todd, Stephen S, Misc Morale, 4.15
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41078, Laura B, Chris W, Stationary Items, 9.43
+2021-07-02 14:40:17.6740 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41079, Ben B, Chris W, Golf Bets, 1.45
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41081, Laura B, Sam N, Lunch, 8.71
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41082, Stephen S, Todd, Lunch, 4.8
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41085, Dan W, Jon A, Misc Morale, 6.57
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41087, Chris W, Stephen S, Sandcastle Help, 10.78
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41089, Laura B, Jon A, Poker Winnings, 0.52
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41091, Stephen S, Tim L, Pokemon Training, 10.86
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41095, Jon A, Dan W, Snooker Night, 7.98
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41096, Sarah T, Ben B, Jenkins Fees, 7.6
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41097, Laura B, Rob S, Git-Fu Rendered, 7.73
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41099, Tim L, Ben B, Misc Morale, 9.1
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41103, Jon A, Laura B, Golf Bets, 1.2
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41104, Tim L, Todd, Pokemon Training, 3.57
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41106, Ben B, Chris W, Services Rendered, 1.33
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41108, Stephen S, Jon A, Coffee, 8.55
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41112, Jon A, Rob S, Lego Assistance, 10.01
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41113, Jon A, Sam N, Beers, 5.83
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41114, Rob S, Todd, Coffee, 10.52
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41116, Todd, Dan W, Jenkins Fees, 11.59
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41117, Jon A, Chris W, Coffee, 9.47
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41120, Rob S, Sam N, Misc Morale, 4.34
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41124, Stephen S, Sam N, Lunch, 10.41
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41126, Tim L, Sam N, Sandbox Help, 2.12
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41130, Laura B, Dan W, Snooker Night, 1.74
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41131, Chris W, Laura B, Misc Morale, 1.92
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41132, Chris W, Dan W, Rails Consultancy, 3.2
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41133, Chris W, Todd, Beers, 5.38
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41134, Todd, Tim L, Automated Testing Services, 8.57
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41135, Sarah T, Stephen S, White Water Rafting, 8.85
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41139, Laura B, Stephen S, Misc Morale, 11.22
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41142, Dan W, Gergana I, Coffee, 0.58
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41145, Sarah T, Rob S, Audit and Other Financial Services, 10.69
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41147, Sarah T, Dan W, Coffee, 7.72
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41148, Tim L, Sam N, Services Rendered, 9.11
+2021-07-02 14:40:17.6891 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41151, Tim L, Jon A, Fantasy Football, 8.65
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41154, Sarah T, Dan W, Coffee, 8.36
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41155, Todd, Sam N, Snooker Night, 3.57
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41156, Dan W, Tim L, Pokemon Training, 10.2
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41159, Stephen S, Chris W, Jenkins Fees, 7.89
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41163, Sarah T, Chris W, Lunch, 4.41
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41165, Todd, Tim L, Git-Fu Rendered, 10.89
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41169, Stephen S, Jon A, Lunch, 0.64
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41172, Sam N, Jon A, Beers, 10.25
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41174, Rob S, Gergana I, Sandcastle Help, 4.73
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41178, Todd, Chris W, Golf Bets, 11.83
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41181, Tim L, Stephen S, Lunch, 4.42
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41184, Jon A, Ben B, Coffee, 3.66
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41187, Laura B, Todd, Lunch, 10.25
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41191, Chris W, Chris W, Lunch, 2.48
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41194, Laura B, Dan W, Lunch, 10.62
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41198, Jon A, Gergana I, Misc Morale, 9.01
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41199, Ben B, Laura B, Audit and Other Financial Services, 10.6
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41200, Todd, Dan W, Beers, 4.34
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41203, Todd, Ben B, Sandcastle Help, 10.4
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41204, Sam N, Laura B, Coffee, 2.13
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41207, Dan W, Sam N, Beers, 6.22
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41209, Gergana I, Chris W, Coffee, 9.29
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41211, Dan W, Sam N, Coffee, 11.07
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41215, Ben B, Todd, Coffee, 7.83
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41216, Sarah T, Tim L, Golf Bets, 5.18
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41218, Sam N, Sarah T, Beers, 6.66
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41222, Tim L, Sarah T, Pokemon Training, 3.74
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41226, Tim L, Dan W, Coffee, 11.93
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41228, Jon A, Tim L, Lunch, 2.99
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41229, Stephen S, Chris W, Automated Testing Services, 5.95
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41232, Dan W, Rob S, Coffee, 7.08
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41235, Rob S, Ben B, Git-Fu Rendered, 6.63
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41236, Dan W, Gergana I, Lego Assistance, 0.92
+2021-07-02 14:40:17.7050 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41239, Rob S, Todd, Coffee, 1.49
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41240, Chris W, Todd, Services Rendered, 10.78
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41243, Chris W, Sarah T, Git-Fu Rendered, 4.53
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41244, Gergana I, Sarah T, Misc Morale, 2.92
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41247, Jon A, Tim L, Jenkins Fees, 7.88
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41251, Tim L, Sarah T, Coffee, 9.31
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41254, Sam N, Laura B, Rails Consultancy, 2.44
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41255, Sarah T, Jon A, Stationary Items, 8.89
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41259, Tim L, Stephen S, Spline Reticulation, 8.73
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41261, Sarah T, Laura B, Lunch, 10.28
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41265, Stephen S, Sarah T, Lego Assistance, 6.07
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41269, Tim L, Jon A, Coffee, 6.28
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41271, Rob S, Chris W, Automated Testing Services, 10.98
+2021-07-02 14:40:17.7202 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41273, Tim L, Todd, Services Rendered, 0.77
+2021-07-02 14:40:17.7202 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 14:40:20.0939 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 14:40:27.2037 Info - SupportBank2.Program: User input: 'n'
+2021-07-02 14:49:53.8699 Info - SupportBank2.Program: Parsing ./Data/Transactions2012.xml
+2021-07-02 14:49:53.9584 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 14:49:55.4479 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 14:49:58.3274 Info - SupportBank2.Program: User input: 'n'
+2021-07-02 15:00:45.6691 Info - SupportBank2.Program: Parsing ./Data/Transactions2012.xml
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40909, Gergana I, Jon A, Snooker Night, 9.22
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40910, Sam N, Dan W, Coffee, 6.98
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40914, Stephen S, Sarah T, Lunch, 10.67
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40915, Rob S, Sarah T, Misc Morale, 7.19
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40917, Tim L, Chris W, Fantasy Football, 10.73
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40920, Tim L, Rob S, Automated Testing Services, 10.1
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40922, Sarah T, Sam N, Beers, 1.79
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40925, Dan W, Todd, Beers, 11.1
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40926, Chris W, Ben B, Coffee, 10.89
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40928, Chris W, Tim L, Pokemon Training, 3.12
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40932, Rob S, Tim L, Snooker Night, 2.29
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40933, Chris W, Rob S, Spline Reticulation, 7.32
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40936, Stephen S, Gergana I, Stationary Items, 6.1
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40937, Stephen S, Todd, Lunch, 7.72
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40939, Stephen S, Laura B, Misc Morale, 5.2
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40941, Sam N, Rob S, Pokemon Training, 4.67
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40944, Ben B, Chris W, Coffee, 11.72
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40948, Rob S, Jon A, Pokemon Training, 6.45
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40952, Todd, Ben B, Sandcastle Help, 8.46
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40955, Laura B, Todd, Lunch, 10.36
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40959, Chris W, Stephen S, Pokemon Training, 3.88
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40962, Sam N, Dan W, Beers, 9.81
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40963, Gergana I, Rob S, Lunch, 3.67
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40965, Dan W, Tim L, Lunch, 0.63
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40969, Tim L, Ben B, Jenkins Fees, 2.61
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40971, Rob S, Ben B, Coffee, 4.85
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40975, Stephen S, Gergana I, Lunch, 3.14
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40979, Gergana I, Chris W, Arcade Social, 9.01
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40980, Gergana I, Rob S, Lego Assistance, 6.33
+2021-07-02 15:00:45.7428 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40984, Dan W, Stephen S, Misc Morale, 11.84
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40986, Jon A, Sarah T, Spline Reticulation, 9.1
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40989, Stephen S, Dan W, Coffee, 8.41
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40993, Stephen S, Tim L, Lunch, 2.38
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40997, Gergana I, Laura B, Snooker Night, 1.9
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40998, Sarah T, Gergana I, Sandcastle Help, 1.89
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 40999, Laura B, Dan W, Stationary Items, 3.8
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41001, Dan W, Chris W, Fantasy Football, 11.63
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41003, Dan W, Todd, Misc Morale, 7.32
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41004, Sam N, Chris W, Audit and Other Financial Services, 6.06
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41007, Tim L, Chris W, Arcade Social, 11.17
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41009, Sarah T, Dan W, Lego Assistance, 5.49
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41011, Gergana I, Jon A, Git-Fu Rendered, 0.8
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41012, Sam N, Todd, Lunch, 5.43
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41013, Laura B, Dan W, Lunch, 10.46
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41015, Laura B, Rob S, Beers, 11.7
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41019, Stephen S, Ben B, Pokemon Training, 11.09
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41022, Todd, Dan W, Audit and Other Financial Services, 8.44
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41026, Laura B, Sam N, Fantasy Football, 0.93
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41028, Laura B, Ben B, Jenkins Fees, 8.17
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41029, Jon A, Tim L, Automated Testing Services, 4.79
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41031, Sarah T, Laura B, Snooker Night, 8.24
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41035, Gergana I, Ben B, Coffee, 9.17
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41038, Todd, Sam N, Pokemon Training, 11.4
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41039, Sam N, Dan W, Sandbox Help, 1.55
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41042, Chris W, Rob S, Lunch, 4.3
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41046, Rob S, Sam N, Automated Testing Services, 8.6
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41050, Todd, Chris W, Fantasy Football, 10.88
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41054, Sarah T, Chris W, Misc Morale, 5.19
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41057, Tim L, Ben B, White Water Rafting, 10.73
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41060, Gergana I, Tim L, Arcade Social, 10.73
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41061, Chris W, Jon A, Spline Reticulation, 10.84
+2021-07-02 15:00:45.7573 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41062, Laura B, Jon A, Coffee, 3.51
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41064, Sarah T, Dan W, Automated Testing Services, 1.78
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41067, Dan W, Stephen S, Lunch, 3.11
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41071, Sarah T, Chris W, Lego Assistance, 3.75
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41074, Todd, Stephen S, Misc Morale, 4.15
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41078, Laura B, Chris W, Stationary Items, 9.43
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41079, Ben B, Chris W, Golf Bets, 1.45
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41081, Laura B, Sam N, Lunch, 8.71
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41082, Stephen S, Todd, Lunch, 4.8
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41085, Dan W, Jon A, Misc Morale, 6.57
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41087, Chris W, Stephen S, Sandcastle Help, 10.78
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41089, Laura B, Jon A, Poker Winnings, 0.52
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41091, Stephen S, Tim L, Pokemon Training, 10.86
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41095, Jon A, Dan W, Snooker Night, 7.98
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41096, Sarah T, Ben B, Jenkins Fees, 7.6
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41097, Laura B, Rob S, Git-Fu Rendered, 7.73
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41099, Tim L, Ben B, Misc Morale, 9.1
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41103, Jon A, Laura B, Golf Bets, 1.2
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41104, Tim L, Todd, Pokemon Training, 3.57
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41106, Ben B, Chris W, Services Rendered, 1.33
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41108, Stephen S, Jon A, Coffee, 8.55
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41112, Jon A, Rob S, Lego Assistance, 10.01
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41113, Jon A, Sam N, Beers, 5.83
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41114, Rob S, Todd, Coffee, 10.52
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41116, Todd, Dan W, Jenkins Fees, 11.59
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41117, Jon A, Chris W, Coffee, 9.47
+2021-07-02 15:00:45.7725 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41120, Rob S, Sam N, Misc Morale, 4.34
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41124, Stephen S, Sam N, Lunch, 10.41
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41126, Tim L, Sam N, Sandbox Help, 2.12
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41130, Laura B, Dan W, Snooker Night, 1.74
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41131, Chris W, Laura B, Misc Morale, 1.92
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41132, Chris W, Dan W, Rails Consultancy, 3.2
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41133, Chris W, Todd, Beers, 5.38
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41134, Todd, Tim L, Automated Testing Services, 8.57
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41135, Sarah T, Stephen S, White Water Rafting, 8.85
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41139, Laura B, Stephen S, Misc Morale, 11.22
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41142, Dan W, Gergana I, Coffee, 0.58
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41145, Sarah T, Rob S, Audit and Other Financial Services, 10.69
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41147, Sarah T, Dan W, Coffee, 7.72
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41148, Tim L, Sam N, Services Rendered, 9.11
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41151, Tim L, Jon A, Fantasy Football, 8.65
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41154, Sarah T, Dan W, Coffee, 8.36
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41155, Todd, Sam N, Snooker Night, 3.57
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41156, Dan W, Tim L, Pokemon Training, 10.2
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41159, Stephen S, Chris W, Jenkins Fees, 7.89
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41163, Sarah T, Chris W, Lunch, 4.41
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41165, Todd, Tim L, Git-Fu Rendered, 10.89
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41169, Stephen S, Jon A, Lunch, 0.64
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41172, Sam N, Jon A, Beers, 10.25
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41174, Rob S, Gergana I, Sandcastle Help, 4.73
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41178, Todd, Chris W, Golf Bets, 11.83
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41181, Tim L, Stephen S, Lunch, 4.42
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41184, Jon A, Ben B, Coffee, 3.66
+2021-07-02 15:00:45.7884 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41187, Laura B, Todd, Lunch, 10.25
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41191, Chris W, Chris W, Lunch, 2.48
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41194, Laura B, Dan W, Lunch, 10.62
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41198, Jon A, Gergana I, Misc Morale, 9.01
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41199, Ben B, Laura B, Audit and Other Financial Services, 10.6
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41200, Todd, Dan W, Beers, 4.34
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41203, Todd, Ben B, Sandcastle Help, 10.4
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41204, Sam N, Laura B, Coffee, 2.13
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41207, Dan W, Sam N, Beers, 6.22
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41209, Gergana I, Chris W, Coffee, 9.29
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41211, Dan W, Sam N, Coffee, 11.07
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41215, Ben B, Todd, Coffee, 7.83
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41216, Sarah T, Tim L, Golf Bets, 5.18
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41218, Sam N, Sarah T, Beers, 6.66
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41222, Tim L, Sarah T, Pokemon Training, 3.74
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41226, Tim L, Dan W, Coffee, 11.93
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41228, Jon A, Tim L, Lunch, 2.99
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41229, Stephen S, Chris W, Automated Testing Services, 5.95
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41232, Dan W, Rob S, Coffee, 7.08
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41235, Rob S, Ben B, Git-Fu Rendered, 6.63
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41236, Dan W, Gergana I, Lego Assistance, 0.92
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41239, Rob S, Todd, Coffee, 1.49
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41240, Chris W, Todd, Services Rendered, 10.78
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41243, Chris W, Sarah T, Git-Fu Rendered, 4.53
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41244, Gergana I, Sarah T, Misc Morale, 2.92
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41247, Jon A, Tim L, Jenkins Fees, 7.88
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41251, Tim L, Sarah T, Coffee, 9.31
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41254, Sam N, Laura B, Rails Consultancy, 2.44
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41255, Sarah T, Jon A, Stationary Items, 8.89
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41259, Tim L, Stephen S, Spline Reticulation, 8.73
+2021-07-02 15:00:45.8034 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41261, Sarah T, Laura B, Lunch, 10.28
+2021-07-02 15:00:45.8196 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41265, Stephen S, Sarah T, Lego Assistance, 6.07
+2021-07-02 15:00:45.8196 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41269, Tim L, Jon A, Coffee, 6.28
+2021-07-02 15:00:45.8196 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41271, Rob S, Chris W, Automated Testing Services, 10.98
+2021-07-02 15:00:45.8196 Error - SupportBank2.Program: Date can't be parsed. for transaction values 41273, Tim L, Todd, Services Rendered, 0.77
+2021-07-02 15:00:45.8196 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-02 15:00:47.2808 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 15:00:49.6112 Info - SupportBank2.Program: User input: 'y'
+2021-07-02 15:00:51.1517 Info - SupportBank2.Program: Incorrect account name entered!
+2021-07-02 15:00:52.7036 Info - SupportBank2.Program: User input: 'n'
