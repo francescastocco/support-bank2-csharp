@@ -4,3 +4,11 @@
 2021-07-01 14:53:59.5186 Info - SupportBank2.Program: Incorrect Year Entered!
 2021-07-01 15:45:00.2169 Error - SupportBank2.Transaction: Transaction amount was not a float
 2021-07-01 15:45:00.2615 Info - SupportBank2.Program: Hello world
+2021-07-02 11:01:08.5644 Info - SupportBank2.Program: Parsing 2015 csv
+2021-07-02 11:01:08.6400 Error - SupportBank2.Program: Amount can't be parsed. for transaction values 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
+2021-07-02 11:01:08.6400 Error - SupportBank2.Program: Date can't be parsed. for transaction values Last Thursday, Sarah T, Dan W, Beers, 5.42
+2021-07-02 11:01:08.6400 Info - SupportBank2.Program: Hello world
+2021-07-02 11:03:34.7287 Info - SupportBank2.Program: Parsing 2015 csv
+2021-07-02 11:03:34.7958 Error - SupportBank2.Program: Amount can't be parsed. for transaction values 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
+2021-07-02 11:03:34.7958 Error - SupportBank2.Program: Date can't be parsed. for transaction values Last Thursday, Sarah T, Dan W, Beers, 5.42
+2021-07-02 11:03:34.7958 Info - SupportBank2.Program: Hello world

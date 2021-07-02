@@ -13,59 +13,86 @@ namespace SupportBank2
         private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
         private static void Main(string[] args)
         {
-            var config = new LoggingConfiguration();
-            var target = new FileTarget { FileName = "./Log/SupportBank.log", Layout = @"${longdate} ${level} - ${logger}: ${message}" };
-            config.AddTarget("File Logger", target);
-            config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
-            LogManager.Configuration = config;
-
+            ConfigureLogging();
             var transactions = GetTransactions();
             var accounts = GetAccounts(transactions);
-
-            Logger.Info("Hello world");
-
-            RequestAccounts(transactions);
+            PopulateTransactionInAccounts(accounts, transactions);
+            RequestAllAccounts(transactions);
             RequestSpecificAccount(accounts);
         }
 
-        public static List<Transaction> GetTransactions() {
+        private static void ConfigureLogging()
+        {
+            var config = new LoggingConfiguration();
+            var target = new FileTarget { FileName = "../../../Log/SupportBank.log", Layout = @"${longdate} ${level} - ${logger}: ${message}" };
+            config.AddTarget("File Logger", target);
+            config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
+            LogManager.Configuration = config;
+        }
+
+        private static List<Transaction> GetTransactions() {
             Console.Write("Which year do you want to see?");
             var year = Console.ReadLine();
             var file = Array.Empty<string>();
-            if (year == "2014")
-            {
-               file = File.ReadAllLines("./Data/Transactions2014.csv");
-            } else if(year == "2015")
-            {
-                file = File.ReadAllLines("./Data/DodgyTransactions2015.csv");
-            } else
+            if (year != "2014" || year != "2015")
             {
                 Console.WriteLine("No transactions exist for this year");
-                Logger.Info("Incorrect Year Entered!");
-                System.Environment.Exit(0);
+                Logger.Warn($"Incorrect Year Entered! User input: '{year}'");
+                GetTransactions();
             }
-            
-            return file.Skip(1).Select(line => new Transaction(line.Split(","))).ToList();
+            if (year == "2014")
+            {
+                Logger.Info("Parsing 2014 csv");
+                file = File.ReadAllLines("./Data/Transactions2014.csv");
+            } 
+            if(year == "2015")
+            {
+                Logger.Info("Parsing 2015 csv");
+                file = File.ReadAllLines("./Data/DodgyTransactions2015.csv");
+            } 
+            return file.Skip(1).Where(line => IsTransactionValid(line.Split(","))).Select(line => new Transaction(line.Split(","))).ToList();
         }
 
-        public static List<Account> GetAccounts(List<Transaction> transactions)
+        private static bool IsTransactionValid(string[] cells)
         {
-            var accounts = transactions.Select(transaction => transaction.From).Distinct().Select(name => new Account(name)).ToList();
+            var validAmount = float.TryParse(cells[4], out _);
+            var validDate = DateTime.TryParse(cells[0], out _);
+            var error = "";
+            if (!validAmount)
+            {
+                error += "Amount can't be parsed. ";
+            } 
+            if (!validDate)
+            {
+                error += "Date can't be parsed. ";
+            }
+            if (!string.IsNullOrEmpty(error))
+            {
+                Logger.Error($"{error}for transaction values {cells[0]}, {cells[1]}, {cells[2]}, {cells[3]}, {cells[4]}");
+            } 
+            return validAmount && validDate;
+        }
 
+        private static List<Account> GetAccounts(List<Transaction> transactions)
+        {
+            return transactions.Select(transaction => transaction.From).Distinct().Select(name => new Account(name)).ToList();
+        }
+
+        private static void PopulateTransactionInAccounts(List<Account> accounts, List<Transaction> transactions)
+        {
+            Logger.Info("Populating transactions in accounts");
             accounts.ForEach(account =>
             {
                 account.TransactionHistoryOwe = transactions.FindAll(transaction => transaction.From == account.Name);
                 account.TransactionHistoryOwed = transactions.FindAll(transaction => transaction.To == account.Name);
             });
-
-            return accounts;
         }
 
-        public static void RequestAccounts(List<Transaction> transactions)
+        private static void RequestAllAccounts(List<Transaction> transactions)
         {
             Console.Write("Would you like a list of all the accounts? y/n?");
             var listAllAccounts = Console.ReadLine();
-
+            Logger.Info($"User input: '{listAllAccounts}'");
             if (listAllAccounts.ToLower() == "y")
             {
                 Console.WriteLine("Date \t\tAmount \tFrom \tTo \t\tNarrative");
@@ -76,11 +103,11 @@ namespace SupportBank2
             }
         }
 
-        public static void RequestSpecificAccount(List<Account> accounts)
+        private static void RequestSpecificAccount(List<Account> accounts)
         {
             Console.Write("Would you like a specific account y/n?");
             var accountRequest = Console.ReadLine();
-
+            Logger.Info($"User input: '{accountRequest}'");
             if (accountRequest.ToLower() == "y")
             {
                 Console.Write("Who's account would you like to see?");
@@ -94,7 +121,7 @@ namespace SupportBank2
                 {
                     Console.WriteLine($"{accountName} does not exist");
                     Logger.Info("Incorrect account name entered!");
-                    System.Environment.Exit(0);
+                    RequestSpecificAccount(accounts);
                 }
             }
         }

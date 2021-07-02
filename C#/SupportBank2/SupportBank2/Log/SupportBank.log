@@ -1,3 +1,4 @@
-2021-07-01 14:31:22.0760 Info - SupportBank2.Program: Hello world
-2021-07-01 14:34:44.1428 Info - SupportBank2.Program: Hello world
-2021-07-01 14:35:44.9397 Info - SupportBank2.Program: Hello world
+2021-07-02 11:09:58.4377 Info - SupportBank2.Program: Parsing 2015 csv
+2021-07-02 11:09:58.5107 Error - SupportBank2.Program: Amount can't be parsed. for transaction values 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
+2021-07-02 11:09:58.5107 Error - SupportBank2.Program: Date can't be parsed. for transaction values Last Thursday, Sarah T, Dan W, Beers, 5.42
+2021-07-02 11:09:58.5160 Info - SupportBank2.Program: Hello world

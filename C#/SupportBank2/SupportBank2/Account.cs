@@ -17,31 +17,28 @@ namespace SupportBank2
         public Account(string name)
         {
             Name = name;
+            Logger.Debug($"Creating account, name: {name}");
         }
 
         public void PrintAllTransactions()
         {
            Console.WriteLine("Date \t\tAmount \t\tFrom \tTo \t\tNarrative");
-           TransactionHistoryOwe.ForEach(transaction =>
+            PrintTransactions(TransactionHistoryOwe);
+            PrintTransactions(TransactionHistoryOwed);
+            Console.WriteLine($"\nName: {Name} \nTotal Owing: {GetTotals(TransactionHistoryOwe)} \nTotal Owed: {GetTotals(TransactionHistoryOwed)}");
+        }
+
+        private static void PrintTransactions(List<Transaction> transactions)
+        {
+            transactions.ForEach(transaction =>
             {
                 Console.WriteLine($"{transaction.Date} \t{transaction.Amount} \t\t{transaction.From} \t{transaction.To} \t\t{transaction.Narrative}");
             });
-            TransactionHistoryOwed.ForEach(transaction =>
-            {
-                Console.WriteLine($"{transaction.Date} \t{transaction.Amount} \t\t{transaction.From} \t{transaction.To} \t\t{transaction.Narrative}");
-            });
-            Console.WriteLine($"\nName: {Name} \nTotal Owing: {TotalOwe()} \nTotal Owed: {TotalOwed()}");
         }
 
-        public float TotalOwe()
+        private static float GetTotals(List<Transaction> transactions)
         {
-            return TransactionHistoryOwe.Select(transaction => transaction.Amount).Sum();
-        }
-
-        public float TotalOwed()
-        {
-            var sum = TransactionHistoryOwed.Select(transaction => transaction.Amount).Sum();
-            return sum;
+            return transactions.Select(transaction => transaction.Amount).Sum();
         }
     }
 }
