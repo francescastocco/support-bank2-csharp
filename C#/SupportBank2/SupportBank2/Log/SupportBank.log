@@ -812,3 +812,7 @@
 2021-07-02 17:43:09.5318 Info - SupportBank2.Program: Populating transactions in accounts
 2021-07-02 17:43:11.4850 Info - SupportBank2.Program: User input: 'n'
 2021-07-02 17:43:12.8806 Info - SupportBank2.Program: User input: 'n'
+2021-07-03 15:26:06.6383 Info - SupportBank2.Program: Parsing ./Data/Transactions2014.csv
+2021-07-03 15:26:06.7068 Info - SupportBank2.Program: Populating transactions in accounts
+2021-07-03 15:26:10.3761 Info - SupportBank2.Program: User input: 'y'
+2021-07-03 15:26:39.4745 Info - SupportBank2.Program: User input: 'y'

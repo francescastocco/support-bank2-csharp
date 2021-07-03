@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\TechSwitch\\Course\\Training-CS\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj": {}
+    "C:\\Training\\C#\\SupportBank\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj": {}
   },
   "projects": {
-    "C:\\Work\\TechSwitch\\Course\\Training-CS\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj": {
+    "C:\\Training\\C#\\SupportBank\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\TechSwitch\\Course\\Training-CS\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj",
+        "projectUniqueName": "C:\\Training\\C#\\SupportBank\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj",
         "projectName": "SupportBank2",
-        "projectPath": "C:\\Work\\TechSwitch\\Course\\Training-CS\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj",
-        "packagesPath": "C:\\Users\\lukste\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\TechSwitch\\Course\\Training-CS\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\obj\\",
+        "projectPath": "C:\\Training\\C#\\SupportBank\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\SupportBank2.csproj",
+        "packagesPath": "C:\\Users\\frasto\\.nuget\\packages\\",
+        "outputPath": "C:\\Training\\C#\\SupportBank\\support-bank2-csharp\\C#\\SupportBank2\\SupportBank2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lukste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frasto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

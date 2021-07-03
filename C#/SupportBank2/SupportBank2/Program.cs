@@ -22,7 +22,7 @@ namespace SupportBank2
             var transactions = GetTransactions();
             var accounts = GetAccounts(transactions);
             PopulateTransactionInAccounts(accounts, transactions);
-            RequestAllAccounts(transactions);
+            RequestAccountBalances(accounts);
             RequestSpecificAccount(accounts);
         }
 
@@ -181,9 +181,24 @@ namespace SupportBank2
             }
         }
 
+        private static void RequestAccountBalances(List<Account> accounts)
+        {
+            Console.Write("Would you like a summary of account balances? y/n");
+            var userInput = Console.ReadLine();
+            Logger.Info($"User input: '{userInput}'");
+            if (userInput.ToLower() == "y")
+            {
+                Console.WriteLine("Name \t\tAmount Owing \t\tAmount Owed");
+                accounts.ForEach(account =>
+                {
+                    Console.WriteLine($"{account.Name} \t\t{Account.GetTotals(account.TransactionHistoryOwe)} \t\t{Account.GetTotals(account.TransactionHistoryOwe)}");
+                });
+            }
+        }
+
         private static void RequestSpecificAccount(List<Account> accounts)
         {
-            Console.Write("Would you like a specific account y/n?");
+            Console.Write("Would you like a specific account? y/n");
             var accountRequest = Console.ReadLine();
             Logger.Info($"User input: '{accountRequest}'");
             if (accountRequest.ToLower() == "y")

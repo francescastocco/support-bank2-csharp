@@ -22,7 +22,7 @@ namespace SupportBank2
 
         public void PrintAllTransactions()
         {
-           Console.WriteLine("Date \t\tAmount \t\tFrom \tTo \t\tNarrative");
+           Console.WriteLine("Date \t\t\tAmount \t\tFrom \tTo \t\tNarrative");
             PrintTransactions(TransactionHistoryOwe);
             PrintTransactions(TransactionHistoryOwed);
             Console.WriteLine($"\nName: {Name} \nTotal Owing: {GetTotals(TransactionHistoryOwe)} \nTotal Owed: {GetTotals(TransactionHistoryOwed)}");
@@ -36,7 +36,7 @@ namespace SupportBank2
             });
         }
 
-        private static float GetTotals(List<Transaction> transactions)
+        public static float GetTotals(List<Transaction> transactions)
         {
             return transactions.Select(transaction => transaction.Amount).Sum();
         }
